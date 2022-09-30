@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <textarea id="write" rows="6" cols="60"></textarea>
+    <!-- <i class="fas fa-window-close" id="lakipuki"></i> -->
+    <div class="key" id="key">
+        <ul id="keyboard">
+            <ul id="uleI" class="up">
+            <li class="uleI-smile" onclick="smile1()">😀</li>
+            <li class="uleI-smile" onclick="smile2()">😃</li>
+            <li class="uleI-smile" onclick="smile3()">😁</li>
+            <li class="uleI-smile" onclick="smile4()">😆</li>
+            <li class="uleI-smile" onclick="smile5()">😂</li>
+            <li class="uleI-smile" onclick="smile6()">😇</li>
+            <li class="uleI-smile" onclick="smile7()">😉</li>
+            <li class="uleI-smile" onclick="smile8()">😍</li>
+            <li class="uleI-smile" onclick="smile9()">😘</li>
+            <li class="uleI-smile" onclick="smile10()">😎</li>
+            <li class="uleI-tiv" id="mek">1</li>
+            <li class="uleI-tiv" id="erku">2</li>
+            <li class="uleI-tiv" id="ereq">3</li>
+            <li class="uleI-tiv" id="chors">4</li>
+            <li class="uleI-tiv" id="hing">5</li>
+            <li class="uleI-tiv" id="vec">6</li>
+            <li class="uleI-tiv" id="yot">7</li>
+            <li class="uleI-tiv" id="ut">8</li>
+            <li class="uleI-tiv" id="inn">9</li>
+            <li class="uleI-tiv" id="zro">0</li>
+            <li class="letter uleI-tar" id="q">q</li>
+            <li class="letter uleI-tar" id="w">w</li>
+            <li class="letter uleI-tar" id="e">e</li>
+            <li class="letter uleI-tar" id="r">r</li>
+            <li class="letter uleI-tar" id="t">t</li>
+            <li class="letter uleI-tar" id="y">y</li>
+            <li class="letter uleI-tar" id="u">u</li>
+            <li class="letter uleI-tar" id="i">i</li>
+            <li class="letter uleI-tar" id="o">o</li>
+            <li class="letter uleI-tar" id="p">p</li>
+            <li class="delete lastitem" id="back"><i class="fas fa-backspace"></i></li>
+        </ul>
+            <ul id="ule">
+            <li class="letter" id="a">a</li>
+            <li class="letter" id="s">s</li>
+            <li class="letter" id="d">d</li>
+            <li class="letter" id="f">f</li>
+            <li class="letter" id="g">g</li>
+            <li class="letter" id="h">h</li>
+            <li class="letter" id="j">j</li>
+            <li class="letter" id="k">k</li>
+            <li class="letter" id="l">l</li>
+            <li class="symbol"><span class="off" id="strim">'</span><span class="on">&quot;</span></li>
+            <li class="return lastitem" id="ent">Enter</li>
+        </ul>
+        <ul id="uleII">
+            <li id="left" style="background-color: #1B1B1B;" class="leftyyy"><i class="fas fa-arrow-up" style="font-size: 19px;"></i></li>
+            <li class="letter" id="z">z</li>
+            <li class="letter" id="x">x</li>
+            <li class="letter" id="c">c</li>
+            <li class="letter" id="v">v</li>
+            <li class="letter" id="b">b</li>
+            <li class="letter" id="n">n</li>
+            <li class="letter" id="m">m</li>
+            <li class="symbol"><span class="off" id="stro">,</span><span class="on">&lt;</span></li>
+            <li class="symbol"><span class="off" id="ket">.</span><span class="on">&gt;</span></li>
+            <li class="symbol"><span class="off" id="slesher">/</span><span class="on">?</span></li>
+            <li class="right-shift rigyyy" style="background-color: #1B1B1B;"><i class="fas fa-arrow-up" style="font-size: 19px;"></i></li>
+        </ul>
+        <ul id="uleIII">
+            <li id="adder" style="background-color: #1B1B1B;">123&</li>
+            <li style="background-color: #1B1B1B;" class="ctrl">Ctrl</li>
+            <li style="background-color: #1B1B1B;" class="smile"><i class="far fa-smile" id="emoji" style="font-size:19px;"></i></li>
+            <li class="space lastitem" style="background-color: #1B1B1B;" id="sp">&nbsp;</li>
+            <li style="background-color: #1B1B1B;" class="leftang"><i class="fas fa-angle-left" id="arajinpaka"></i></li>
+            <li style="background-color: #1B1B1B;" class="rigthang"><i class="fas fa-angle-right" id="erkrordpaka"></i></li>
+            <li style="background-color: #1B1B1B;" class="keyb" id="keyb" onclick="keybcolor()"><i class="fas fa-keyboard"></i></li>
+        </ul>
+    </div>
+     
+    <script src="https://kit.fontawesome.com/8628f0fd9a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/keyboard.js"></script>
+    </body>
+    </html>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
